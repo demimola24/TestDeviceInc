@@ -1,6 +1,5 @@
 package com.casestudy.testdevices.ui.views.home
 
-import android.content.Context
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
@@ -39,10 +38,15 @@ class HomeFragment : Fragment(), MainAdapter.OnItemClickListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        mainViewModel.fetchDevices()
         setupUI()
         setupObserver()
     }
+
+    override fun onResume() {
+        super.onResume()
+        mainViewModel.fetchDevices()
+    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
