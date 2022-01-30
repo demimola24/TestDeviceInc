@@ -5,7 +5,7 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("users")
-    suspend fun getUsers(): Response<List<MyDevice>>
+    @GET("devices")
+    suspend fun devices(): Response<List<MyDevice>>
 
 }
