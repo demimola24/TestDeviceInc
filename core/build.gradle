@@ -39,7 +39,7 @@ dependencies {
     api project(path: ':domain')
     api project(path: ':data')
 
-    kapt("org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.2.0")
+    kapt("org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.3.0")
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
 
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -56,8 +56,8 @@ dependencies {
     testImplementation "org.mockito:mockito-inline:3.11.2"
 
     //Dagger
-    implementation 'com.google.dagger:hilt-android:2.28-alpha'
-    kapt 'com.google.dagger:hilt-android-compiler:2.28-alpha'
+    implementation 'com.google.dagger:hilt-android:2.40.5'
+    kapt 'com.google.dagger:hilt-android-compiler:2.37'
 
     // Networking
     implementation "com.squareup.retrofit2:converter-moshi:2.6.2"

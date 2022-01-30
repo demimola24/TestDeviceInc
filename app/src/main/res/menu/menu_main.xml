@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.casestudy.testdevices.ui.views.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/accounts"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/ic_settings_icon"
+            android:title="@string/setting" />
+
+        <item
+            android:id="@+id/action_logout"
+            android:icon="@drawable/ic_logout_icon"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:label="Devices"
+        android:name="com.casestudy.testdevices.ui.views.home.HomeFragment"
+        tools:layout="@layout/home_fragment"/>
+
+    <fragment
+        android:id="@+id/deviceDetailsFragment"
+        android:name="com.casestudy.testdevices.ui.views.details.DeviceDetailsFragment"
+        tools:layout="@layout/fragment_device_details">
+
+        <argument
+            android:name="myDeviceData"
+            app:argType="com.casestudy.data.model.MyDevice" />
+
+    </fragment>
+
+
+</navigation>

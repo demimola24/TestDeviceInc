@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">TestDevices</string>
+    <string name="app_name">Test Devices</string>
+    <string name="ademola_tikare">Ademola Tikare</string>
+    <string name="last_login_dec_6_2022_11_30am">Last login: Dec 6, 2022 11:30am</string>
+    <string name="version_text">v1.0.6</string>
+    <string name="home">Devices</string>
+    <string name="setting">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title:</string>
+    <string name="description">Description:</string>
 </resources>
