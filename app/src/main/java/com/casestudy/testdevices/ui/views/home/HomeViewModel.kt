@@ -21,9 +21,6 @@ class HomeViewModel  @Inject constructor(
     val devices: LiveData<DataOutput<List<MyDevice>>>
         get() = _devices
 
-    init {
-        fetchDevices()
-    }
 
     fun fetchDevices() {
         viewModelScope.launch {
