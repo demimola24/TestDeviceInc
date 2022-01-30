@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1234",
+    "type": "Sensor",
+    "price": 200,
+    "currency": "USD",
+    "isFavorite": false,
+    "imageUrl": "https://www.variohm.com/images/content/slides/426_700x400.jpg?09:17:13&_e=.jpg",
+    "title": "Temperature Sensor for NRD",
+    "description": "For testing purposes, majorly for doctors and nurses"
+  },
+  {
+    "id": "1234",
+    "type": "Sensor",
+    "price": 130,
+    "currency": "NGR",
+    "isFavorite": false,
+    "imageUrl": "https://www.royal.ps/storage/products/September2021/Rlf63OazELvssCnrrneL.jpg",
+    "title": "Temperature Sensor for pumping",
+    "description": "For testing purposes, this tool is useful for plumbers and other technical possibilities. Discounts available till 4th of July, 2022."
+  },
+  {
+    "id": "1234",
+    "type": "Sensor",
+    "price": 300,
+    "currency": "EUR",
+    "isFavorite": false,
+    "imageUrl": "https://solicstores.in/wp-content/uploads/2020/07/IR-Sensor-Module-scaled.jpg",
+    "title": "Light Sensor for CPP",
+    "description": "For live CPP activations over a long period of years. Affordable and easy to use"
+  },
+  {
+    "id": "1234",
+    "type": "Sensor",
+    "price": 480,
+    "currency": "GBP",
+    "isFavorite": false,
+    "imageUrl": "https://image.shutterstock.com/image-vector/ir-sensor-top-view-illustration-260nw-1514226404.jpg",
+    "title": "Imaging Sensor for LZD",
+    "description": "For pixel imaging testings on LZD pictures"
+  }
+]
