@@ -12,7 +12,7 @@ The design approach was to make the application modular while using MVVM with Cl
 1. **app**
 2. **core**
 3. **data**
-4. **domain***
+4. **domain**
 
 
 ##### Components/Libraries used included:
